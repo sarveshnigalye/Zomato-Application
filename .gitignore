@@ -1,0 +1,36 @@
+# Environments & Variables
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dynamic Database runtime files (keep seed, ignore runtime WAL)
+data/processed/*.db-wal
+data/processed/*.db-shm
+data/processed/*.db-journal
+data/embeddings/chroma/
+
+# Agent / IDE internal logs
+.agents/
+.system_generated/
+*.log
+
+# OS & IDE generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
